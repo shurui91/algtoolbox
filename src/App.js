@@ -13,6 +13,7 @@ class App extends Component {
 		showPersons: false
 	};
 
+	/*
 	switchNameHandler = newName => {
 		// console.log('Was clicked!');
 		// DON'T DO THIS: this.state.persons[0].name = 'Maximilian';
@@ -24,6 +25,7 @@ class App extends Component {
 			]
 		});
 	};
+	*/
 
 	nameChangedHandler = event => {
 		this.setState({
@@ -34,6 +36,10 @@ class App extends Component {
 			]
 		});
 	};
+
+	deletePersonHandler = () => {
+		
+	}
 
 	togglePersonsHandler = () => {
 		const doesShow = this.state.showPersons;
