@@ -1,2 +1,2 @@
-/node_modules
-.DS_Store
+/main/node_modules
+/main/.DS_Store
